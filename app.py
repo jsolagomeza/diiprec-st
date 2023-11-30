@@ -3,7 +3,7 @@ from openai import OpenAI
 
 st.set_page_config(page_title="DiipRec")
 st.title("DiipRec")
-st.header("Pregunta sobre la reunion :books: ")
+st.header("Pregunta sobre la presentación :books: ")
 
 api_key = st.secrets["OPENAI_API_KEY"]
 
